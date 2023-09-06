@@ -47,8 +47,6 @@ github.com/ProtonMail/go-crypto/openpgp/internal/ecc
 github.com/ProtonMail/go-crypto/openpgp/internal/encoding
 github.com/ProtonMail/go-crypto/openpgp/packet
 github.com/ProtonMail/go-crypto/openpgp/s2k
-# github.com/Shopify/logrus-bugsnag v0.0.0-20230117174420-439a4b8ba167
-## explicit; go 1.17
 # github.com/acomagu/bufpipe v1.0.4
 ## explicit; go 1.12
 github.com/acomagu/bufpipe
@@ -124,8 +122,10 @@ github.com/bombsimon/logrusr/v2
 # github.com/bradleyfalzon/ghinstallation/v2 v2.1.0
 ## explicit; go 1.13
 github.com/bradleyfalzon/ghinstallation/v2
-# github.com/bshuster-repo/logrus-logstash-hook v1.1.0
-## explicit; go 1.16
+# github.com/bugsnag/bugsnag-go/v2 v2.2.0
+## explicit; go 1.15
+# github.com/bugsnag/panicwrap v1.3.4
+## explicit
 # github.com/cespare/xxhash/v2 v2.2.0
 ## explicit; go 1.11
 github.com/cespare/xxhash/v2
@@ -406,8 +406,6 @@ github.com/gobwas/glob/syntax/ast
 github.com/gobwas/glob/syntax/lexer
 github.com/gobwas/glob/util/runes
 github.com/gobwas/glob/util/strings
-# github.com/gofrs/uuid v4.2.0+incompatible
-## explicit
 # github.com/gogo/protobuf v1.3.2
 ## explicit; go 1.15
 github.com/gogo/protobuf/proto
@@ -618,6 +616,11 @@ github.com/onsi/gomega/types
 # github.com/opencontainers/go-digest v1.0.0
 ## explicit; go 1.13
 github.com/opencontainers/go-digest
+# github.com/openshift-kni/eco-goinfra v0.0.0-20230906195736-b41f21949be8
+## explicit; go 1.19
+github.com/openshift-kni/eco-goinfra/pkg/clients
+github.com/openshift-kni/eco-goinfra/pkg/msg
+github.com/openshift-kni/eco-goinfra/pkg/namespace
 # github.com/openshift-kni/k8sreporter v1.0.3
 ## explicit; go 1.20
 github.com/openshift-kni/k8sreporter

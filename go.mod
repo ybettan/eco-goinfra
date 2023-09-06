@@ -1,4 +1,4 @@
-module github.com/openshift-kni/eco-goinfra
+module github.com/ybettan/eco-goinfra
 
 go 1.19
 
@@ -13,6 +13,7 @@ require (
 	github.com/metallb/metallb-operator v0.13.9
 	github.com/nmstate/kubernetes-nmstate/api v0.0.0-20230620093014-45a940d6f70d
 	github.com/onsi/ginkgo/v2 v2.10.0
+	github.com/openshift-kni/eco-goinfra v0.0.0-20230906195736-b41f21949be8
 	github.com/openshift-kni/k8sreporter v1.0.3
 	github.com/openshift/api v3.9.1-0.20190916204813-cdbe64fb0c91+incompatible
 	github.com/openshift/assisted-service/api v0.0.0-20230125183155-2b97070428e1
@@ -47,7 +48,6 @@ require (
 	github.com/go-openapi/spec v0.20.9 // indirect
 	github.com/go-openapi/strfmt v0.21.3 // indirect
 	github.com/go-openapi/validate v0.22.0 // indirect
-	github.com/gofrs/uuid v4.2.0+incompatible // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.4 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
@@ -66,7 +66,6 @@ require (
 	github.com/Masterminds/sprig/v3 v3.2.3 // indirect
 	github.com/Microsoft/go-winio v0.5.2 // indirect
 	github.com/ProtonMail/go-crypto v0.0.0-20230217124315-7d5c6f04bbb8 // indirect
-	github.com/Shopify/logrus-bugsnag v0.0.0-20230117174420-439a4b8ba167 // indirect
 	github.com/acomagu/bufpipe v1.0.4 // indirect
 	github.com/ajeddeloh/go-json v0.0.0-20200220154158-5ae607161559 // indirect
 	github.com/argoproj/gitops-engine v0.7.1-0.20230526233214-ad9a694fe4bc // indirect
@@ -77,7 +76,8 @@ require (
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/bombsimon/logrusr/v2 v2.0.1 // indirect
 	github.com/bradleyfalzon/ghinstallation/v2 v2.1.0 // indirect
-	github.com/bshuster-repo/logrus-logstash-hook v1.1.0 // indirect
+	github.com/bugsnag/bugsnag-go/v2 v2.2.0 // indirect
+	github.com/bugsnag/panicwrap v1.3.4 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/chai2010/gettext-go v1.0.2 // indirect
 	github.com/clarketm/json v1.17.1 // indirect
